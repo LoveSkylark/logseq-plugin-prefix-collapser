@@ -1,0 +1,26 @@
+{
+  "id": "namespace-prefixes-collapser",
+  "name": "Namespace Prefixes Collapser",
+  "description": "A LogSeq plugin to collapse namespace prefixes in page references.",
+  "author": "Your Name",
+  "version": "1.0.0",
+  "minLogSeqVersion": "0.4.0",
+  "main": "index.js",
+  "enabled": true,
+  "settings": [
+    {
+      "key": "namespaceSymbol",
+      "name": "Namespace Symbol",
+      "description": "The symbol to use before collapsed namespaces.",
+      "type": "string",
+      "default": "›"
+    },
+    {
+      "key": "toggleKeystroke",
+      "name": "Toggle Keystroke",
+      "description": "The keystroke to toggle the plugin on and off.",
+      "type": "string",
+      "default": "`"
+    }
+  ]
+}
