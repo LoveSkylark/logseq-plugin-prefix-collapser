@@ -20,7 +20,13 @@
       "name": "Toggle Keystroke",
       "description": "The keystroke to toggle the plugin on and off.",
       "type": "string",
-      "default": "`"
+      "default": "Mod-Shift-I"
     }
-  ]
+  ],
+  "hotkeys": [
+      {
+        "key": "{{toggleKeystroke}}",
+        "action": "toggle-plugin"
+      }
+  ] 
 }
